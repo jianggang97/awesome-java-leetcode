@@ -32,7 +32,7 @@ class Solution {
 }
 ```
 
-## 思路 1
+## 思路 1(如果数组中全为负数,岂不是没有求和 直接返回第一个数)
 
 题目也给了我们另一种思路，就是分治，所谓分治就是把问题分割成更小的，最后再合并即可，我们把 `nums` 一分为二先，那么就有两种情况，一种最大序列包括中间的值，一种就是不包括，也就是在左边或者右边；当最大序列在中间的时候那我们就把它两侧的最大和算出即可；当在两侧的话就继续分治即可。
 
@@ -69,6 +69,6 @@ class Solution {
 如果你同我一样热爱数据结构、算法、LeetCode，可以关注我 GitHub 上的 LeetCode 题解：[awesome-java-leetcode][ajl]
 
 
-
+da
 [title]: https://leetcode.com/problems/maximum-subarray
 [ajl]: https://github.com/Blankj/awesome-java-leetcode
